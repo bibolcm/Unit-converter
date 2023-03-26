@@ -46,6 +46,9 @@ html, body{
     color: #ffffff;
     opacity: 1; /* Firefox */
   }
+  #input-el:focus::placeholder {
+    color: transparent;
+  }
 
 #container-bottom{
     background: #F4F4F4;
