@@ -24,7 +24,7 @@ let poundsToKillos
 
 btnEl.addEventListener("click", function () {
 
-    inputValue = inputEl.value
+    console.log(inputValue = inputEl.innerHTML)
 
     metersToFeet = (inputValue * 3.281).toFixed(3)
     feetToMeters = (inputValue / 3.281).toFixed(3)
